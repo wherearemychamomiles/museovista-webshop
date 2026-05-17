@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt & Impressum - MuseoVista</title>
+</head>
+<body>
+<header>
+    <h1>Kontakt & Impressum</h1>
+</header>
+
+<nav>
+    <a href="index.html">Shop</a>
+    <a href="about.html">Über uns & Marken</a>
+    <a href="license.html">Lizenz & Urheberrecht</a>
+    <a href="privacy.html">Datenschutz</a>
+    <a href="contact.html">Kontakt & Impressum</a>
+</nav>
+
+<main>
+<section>
+        <h2>Kontaktieren Sie uns</h2>
+        <form class="mock-form" onsubmit="event.preventDefault(); alert('Nachricht wurde erfolgreich gesendet!');">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" required>
+            
+            <label for="msg">Nachricht:</label>
+            <textarea id="msg" rows="4" required></textarea>
+            
+            <button type="submit" class="btn">Absenden</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Impressum</h2>
+        <p><strong>MuseoVista GmbH</strong></p>
+        <p>Musterstraße 1, 1010 Wien, Österreich</p>
+        <p><strong>Unternehmensgegenstand:</strong> Softwareentwicklung und Digitalisierungsdienstleistungen für Kultureinrichtungen</p>
+        <p><strong>Firmenbuchnummer:</strong> AT 123456 </p>
+        <p><strong>Firmenbuchgericht:</strong> Handelsgericht Wien</p>
+        <p><strong>UID-Nummer:</strong> AT65432109</p>
+        <p><strong>Geschäftsführung:</strong> Max Mustermann</p>
+        <p><strong>Kontakt:</strong> info@museovista-example.at | +43 1234567</p>
+        <p><strong>Anwendbare Rechtsvorschriften:</strong> Gewerbeordnung (GewO) – einsehbar unter www.ris.bka.gv.at</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 MuseoVista GmbH.</p>
+</footer>
+
+</body>
+</html>
